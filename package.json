@@ -11,9 +11,14 @@
     "docs:build": "vitepress build lessons"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^4.0.97",
+    "@cloudflare/ai-chat": "^0.12.1",
     "@excalidraw/excalidraw": "^0.18.0",
+    "agents": "^0.28.1",
+    "ai": "^7.0.144",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.0.0",
